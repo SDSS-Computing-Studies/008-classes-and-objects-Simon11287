@@ -80,9 +80,6 @@ class student:
         else:
             print(self.name+" does not have enough courses")
 def main():
-    # This contains test data that will be used by the autograder.
-    # do not modify this function
-
     st1 = student("Anita Bath","91334",11)
     st1.getCourses( ["English","Math","PE","Computers","History","Biology","Japanese"] )
     st1.getGrades( [91, 94, 87, 99, 82, 100, 73])
